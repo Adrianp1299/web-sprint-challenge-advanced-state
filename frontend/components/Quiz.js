@@ -12,7 +12,7 @@ export function Quiz(props) {
   const handleLoad = () => {
     if (question === "What is closure?") {
       fetchQuiz();
-      return true
+      return false
     }
     else {
       return true
